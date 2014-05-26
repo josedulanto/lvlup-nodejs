@@ -1,16 +1,31 @@
-var express = require('express');
-var app = express();
+var recipes = require('./data/recipes').data;
 
-app.get('/recipes', function(req,res){
-	res.send('<h1>All recipes</h1>');
-});
+exports.list = function(req,res){
+	res.render('recipes.ejs', {
+		title: 'Clever Kitchens - Recipe List',
+		recipes: recipes
+	});
+};
 
-app.get('/recipes/:title', function(req,res){
-	res.send('<h1>'+req.params.title+'</h1>');
-});
+exports.single = function(req,res){
+	var data = recipes.filter(function(recipe){
+		return (recipe.url === req.params.title);
+	});
 
-app.get('/*', function(req,res){
-	res.send('If all else fails, we hit this page');
-});
+	if(data.length > 0){
+		data = data[0];
+		data.title = 'Clever Kitchens - Recipe';
+		res.render('recipe.ejs', data);
+	} else {
+		res.status(404).render('error.ejs', {title: 'Error'});
+	}
+}
 
-app.listen(3000);
+exports.suggest = function(req,res){
+	res.render('suggest_result.ejs', {
+		title: 'Clever Kitchens - Thanks!',
+		name: req.body.name,
+		ingredients: req.body.ingredients,
+		directions: req.body.directions
+	});
+};

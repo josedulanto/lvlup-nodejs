@@ -13,7 +13,8 @@
     "jsdom": "*",
     "connect": "*",
     "express":"*",
-    "ejs":"*"
+    "ejs":"*",
+    "body-parser": "*"
   },
   "author": "Jose Dulanto",
   "license": "ISC"
