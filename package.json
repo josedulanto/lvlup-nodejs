@@ -11,7 +11,9 @@
     "optimist": "*",
     "jquery": "*",
     "jsdom": "*",
-    "connect": "*"
+    "connect": "*",
+    "express":"*",
+    "ejs":"*"
   },
   "author": "Jose Dulanto",
   "license": "ISC"

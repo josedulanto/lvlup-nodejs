@@ -1,11 +1,34 @@
-var connect = require('connect');
-var my_data = {
-  'fruit': 'apple',
-  'number': '555-1212',
-  'color': 'purple'
-};
-var app = connect()
-  .use(function(req, res){
-    res.setHeader('Content-Type', 'application/json');
-    res.end(JSON.stringify(my_data));
-  }).listen(3000);
+var express = require('express');
+var app = express();
+var recipes = require('./data/recipes').data;
+
+app.get('/', function(req,res){
+	res.render('index.ejs', {title: 'Clever Kitchens'});
+});
+
+app.get('/recipes', function(req,res){
+	res.render('recipes.ejs', {
+		title: 'Clever Kitchens - Recipes',
+		recipes: recipes
+	});
+});
+
+app.get('/recipes/:title', function(req,res){
+	var data = recipes.filter(function(recipe){
+		return (recipe.url === req.params.title);
+	});
+
+	if(data.length > 0){
+		data = data[0];
+		data.title = 'Clever Kitchens - Recipe';
+		res.render('recipe.ejs', data);
+	} else {
+		res.status(404).render('error.ejs', {title: 'Error'});
+	}
+});
+
+app.get('/*', function(req,res){
+	res.status(404).render('error.ejs', {title: 'Error'});
+});
+
+app.listen(3000);
