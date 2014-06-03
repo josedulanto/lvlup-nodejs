@@ -1,8 +1,9 @@
 {
-  "name": "Node",
-  "version": "0.0.0",
-  "description": "",
-  "main": "script.js",
+  "name": "Simple",
+  "version": "1.0.0",
+  "description": "Exercises from many resources (videos, websites, ebooks)",
+  "repository": "",
+  "main": "twitter.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,7 +15,9 @@
     "connect": "*",
     "express":"*",
     "ejs":"*",
-    "body-parser": "*"
+    "body-parser": "*",
+    "request": "*",
+    "twitter": "*"
   },
   "author": "Jose Dulanto",
   "license": "ISC"

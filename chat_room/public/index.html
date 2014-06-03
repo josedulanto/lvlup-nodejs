@@ -16,27 +16,32 @@ jQuery(document).ready(function () {
 		jQuery('#chat_log').append(li);
 	};
 
-	var socket = io.connect('http://localhost:3000');
+	var client = io.connect('http://localhost:3000');
 
-	socket.on('entrance', function  (data) {
+	client.on('connect', function(data) {
+		nickname = prompt('What is your nickname?');
+		client.emit('join', nickname)
+	});
+
+	client.on('entrance', function(data) {
 		log_chat_message(data.message, 'system');
 	});
 
-	socket.on('exit', function  (data) {
+	client.on('exit', function  (data) {
 		log_chat_message(data.message, 'leave');
 	});
 
-	socket.on('chat', function  (data) {
+	client.on('chat', function  (data) {
 		log_chat_message(data.message, 'normal');
 	});
 
-	socket.on('error', function  (data) {
+	client.on('error', function  (data) {
 		log_chat_message(data.message, 'error');
 	});
 
 	jQuery('#chat_box').keypress(function (event) {
 		if (event.which == 13) {
-			socket.emit('chat', {message: jQuery('#chat_box').val()});
+			client.emit('chat', {message: jQuery('#chat_box').val()});
 			jQuery('#chat_box').val('');
 		}
 	});
