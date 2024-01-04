@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 josedulanto/lvlup-nodejs is built on the following main stack:
+
 - [jQuery](http://jquery.com/) – Javascript UI Libraries
 - [Socket.IO](http://socket.io/) – Realtime Backend / API
 - [ExpressJS](http://expressjs.com/) – Microframeworks (Backend)
@@ -9,11 +10,13 @@ josedulanto/lvlup-nodejs is built on the following main stack:
 - [jsdom](https://github.com/jsdom/jsdom) – Headless Browsers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 josedulanto/lvlup-nodejs is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg' alt='jQuery'/> [jQuery](http://jquery.com/) – Javascript UI Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png' alt='Socket.IO'/> [Socket.IO](http://socket.io/) – Realtime Backend / API
 - <img width='25' height='25' src='https://img.stackshare.io/service/1163/hashtag.png' alt='ExpressJS'/> [ExpressJS](http://expressjs.com/) – Microframeworks (Backend)
@@ -21,14 +24,15 @@ josedulanto/lvlup-nodejs is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/7054/preview.jpeg' alt='jsdom'/> [jsdom](https://github.com/jsdom/jsdom) – Headless Browsers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [josedulanto/lvlup-nodejs](https://github.com/josedulanto/lvlup-nodejs)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|19<br/>Tools used|11/09/23 <br/>Report generated|
+|19<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -138,4 +142,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
