@@ -1,7 +1,8 @@
 repo_name: josedulanto/lvlup-nodejs
 report_id: ee839bb59543cd194ca26427bd2a3bae
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T16:29:29+00:00'
+timestamp: '2024-01-04T15:01:37+00:00'
 requested_by: josedulanto
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/josedulanto/lvlup-nodejs
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/josedulanto/lvlup-nodejs
   detection_source: Repo Metadata
 - name: ExpressJS
   description: Sinatra inspired web development framework for node.js -- insanely
@@ -37,8 +40,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: recipes/package.json
-  detection_source: simple/package.json
+  detection_source_url: https://github.com/josedulanto/lvlup-nodejs/blob/master/recipes/package.json
+  detection_source: recipes/package.json
   last_updated_by: José Dulanto
   last_updated_on: 2014-05-28 17:19:27.000000000 Z
 - name: jQuery
@@ -50,6 +53,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/josedulanto/lvlup-nodejs/blob/master/simple/package.json
   detection_source: simple/package.json
   last_updated_by: José Dulanto
   last_updated_on: 2014-05-25 18:13:57.000000000 Z
@@ -61,7 +65,8 @@ tools:
   category: Application Hosting
   sub_category: Realtime Backend / API
   image_url: https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png
-  detection_source: recipes/package.json
+  detection_source_url: https://github.com/josedulanto/lvlup-nodejs/blob/master/chat_room/package.json
+  detection_source: chat_room/package.json
   last_updated_by: José Dulanto
   last_updated_on: 2014-05-28 17:19:27.000000000 Z
 - name: Git
@@ -72,6 +77,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/josedulanto/lvlup-nodejs
   detection_source: Repo Metadata
 - name: jsdom
   description: A JavaScript implementation of the WHATWG DOM and HTML standards, for
@@ -83,6 +89,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Headless Browsers
   image_url: https://img.stackshare.io/service/7054/preview.jpeg
+  detection_source_url: https://github.com/josedulanto/lvlup-nodejs/blob/master/simple/package.json
   detection_source: simple/package.json
   last_updated_by: José Dulanto
   last_updated_on: 2014-05-25 18:13:57.000000000 Z
@@ -94,6 +101,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/josedulanto/lvlup-nodejs/blob/master/simple/package.json
   detection_source: simple/package.json
   last_updated_by: José Dulanto
   last_updated_on: 2014-05-25 18:13:57.000000000 Z
@@ -107,8 +115,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: recipes/package.json
-  detection_source: simple/package.json
+  detection_source_url: https://github.com/josedulanto/lvlup-nodejs/blob/master/recipes/package.json
+  detection_source: recipes/package.json
   last_updated_by: José Dulanto
   last_updated_on: 2014-05-28 17:19:27.000000000 Z
 - name: connect
@@ -120,7 +128,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16202/default_2c2f2c7b016f84c0fad2576cb986cb14a5dbbc2f.png
-  detection_source: simple/package.json
+  detection_source_url: https://github.com/josedulanto/lvlup-nodejs/blob/master/chat_room/package.json
+  detection_source: chat_room/package.json
   last_updated_by: José Dulanto
   last_updated_on: 2014-05-28 17:19:27.000000000 Z
 - name: cookie-parser
@@ -133,7 +142,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16136/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
-  detection_source_url: recipes/package.json
+  detection_source_url: https://github.com/josedulanto/lvlup-nodejs/blob/master/recipes/package.json
   detection_source: recipes/package.json
   last_updated_by: José Dulanto
   last_updated_on: 2014-05-28 17:19:27.000000000 Z
@@ -147,7 +156,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: recipes/package.json
+  detection_source_url: https://github.com/josedulanto/lvlup-nodejs/blob/master/recipes/package.json
   detection_source: recipes/package.json
   last_updated_by: José Dulanto
   last_updated_on: 2014-05-28 17:19:27.000000000 Z
@@ -173,6 +182,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16045/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
+  detection_source_url: https://github.com/josedulanto/lvlup-nodejs/blob/master/simple/package.json
   detection_source: simple/package.json
   last_updated_by: José Dulanto
   last_updated_on: 2014-05-25 18:13:57.000000000 Z
@@ -186,8 +196,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: recipes/package.json
-  detection_source: simple/package.json
+  detection_source_url: https://github.com/josedulanto/lvlup-nodejs/blob/master/recipes/package.json
+  detection_source: recipes/package.json
   last_updated_by: José Dulanto
   last_updated_on: 2014-05-28 17:19:27.000000000 Z
   vulnerabilities:
@@ -213,7 +223,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16163/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
-  detection_source_url: recipes/package.json
+  detection_source_url: https://github.com/josedulanto/lvlup-nodejs/blob/master/recipes/package.json
   detection_source: recipes/package.json
   last_updated_by: José Dulanto
   last_updated_on: 2014-05-28 17:19:27.000000000 Z
@@ -227,7 +237,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: recipes/package.json
+  detection_source_url: https://github.com/josedulanto/lvlup-nodejs/blob/master/recipes/package.json
   detection_source: recipes/package.json
   last_updated_by: José Dulanto
   last_updated_on: 2014-05-28 17:19:27.000000000 Z
@@ -247,6 +257,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16145/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/josedulanto/lvlup-nodejs/blob/master/simple/package.json
   detection_source: simple/package.json
   last_updated_by: José Dulanto
   last_updated_on: 2014-05-25 18:13:57.000000000 Z
@@ -259,6 +270,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/josedulanto/lvlup-nodejs/blob/master/simple/package.json
   detection_source: simple/package.json
   last_updated_by: José Dulanto
   last_updated_on: 2014-06-03 18:00:27.000000000 Z
@@ -271,6 +283,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18617/default_556cbbde03c4b61e43fa7de374efed6927510d08.png
+  detection_source_url: https://github.com/josedulanto/lvlup-nodejs/blob/master/simple/package.json
   detection_source: simple/package.json
   last_updated_by: José Dulanto
   last_updated_on: 2014-06-03 18:00:27.000000000 Z
